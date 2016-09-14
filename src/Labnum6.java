@@ -21,13 +21,13 @@ public class Labnum6 {
 			input =userInput.nextLine();
 		
 			if( input.startsWith("a") || input.startsWith("e") || input.startsWith("i") ||
-                input.startsWith("o") || input.startsWith("u"));
+                input.startsWith("o") || input.startsWith("u"))
 		{
 			System.out.println(input + "way");
 			
 		} 
-	
-				
+		
+			else		
 		{ 	 
 			System.out.print(input.substring(1) + input.substring(0,1) + "ay");
 			input=userInput.next();
